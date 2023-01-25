@@ -1,6 +1,6 @@
 const repeatString = function(string, num) {
     //loop through the input string
-    for (let i = 0; i <6 num; i++){
+    for (let i = 0; i <6; i++){
         myOutput.push(string)
         console.log(myOutput)
     }
