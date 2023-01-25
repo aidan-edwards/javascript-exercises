@@ -2,8 +2,9 @@ const repeatString = function(string, num) {
     //loop through the input string
     for (let i = 0; i < num; i++){
         myOutput.push(string)
-        return myOutput
     }
+    return myOutput
+
 };
 
 //create arr to store output
