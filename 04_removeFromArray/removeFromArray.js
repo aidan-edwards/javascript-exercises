@@ -1,4 +1,7 @@
-const removeFromArray = function() {
+//that takes multiple args
+//and an arr
+//removes those args from that arr
+const removeFromArray = function(arr, ...args) {
 
 };
 
