@@ -1,14 +1,17 @@
 const repeatString = function(string, num) {
-    //loop through the input string
-    for (let i = 0; i < num; i++){
-        myOutput.push(string)
+    let finalString = ""
+    if (num < 0){
+        return "ERROR"
     }
-    return myOutput
-
+    else{
+    for(let i = 0; i < num; i++){
+        finalString += string
+    }
+    return finalString
+}
 };
 
 //create arr to store output
-const myOutput = [];
 
 // Do not edit below this line
 module.exports = repeatString;
