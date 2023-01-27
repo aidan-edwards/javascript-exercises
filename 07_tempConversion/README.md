@@ -15,3 +15,10 @@ This exercise asks you to create more than one function so the `module.exports` 
 - You can find the relevant formulae on [Wikipedia](https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature).
 
 - Try to find by yourself on the Internet how to round a number to 1 decimal place in JavaScript. If you struggle, have a look [here](https://stackoverflow.com/q/7342957/5433628).
+
+
+<!-- To convert temperatures in degrees Celsius to Fahrenheit, multiply by 1.8 (or 9/5) and add 32.
+
+ Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9). -->
+
+ <!-- Because we are human, we want the result temperature to be rounded to one decimal place: i.e., `convertToCelsius(100)` should return `37.8` and not `37.77777777777778`. -->
